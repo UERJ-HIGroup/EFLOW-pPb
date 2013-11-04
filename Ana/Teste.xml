@@ -1,0 +1,49 @@
+<use   name="FWCore/Framework"/>
+<use   name="FWCore/PluginManager"/>
+<use   name="FWCore/ParameterSet"/>
+<use   name="DataFormats/Common"/>
+<use   name="DataFormats/DetId"/>
+<use   name="DataFormats/JetReco"/>
+<use   name="DataFormats/VertexReco"/>
+<use   name="PhysicsTools/UtilAlgos"/>
+<use   name="JetMETCorrections/Objects"/>
+<use   name="DataFormats/L1GlobalTrigger"/>
+<use   name="CondFormats/CastorObjects"/>
+<use   name="CalibFormats/CastorObjects"/>
+<use   name="SimDataFormats/GeneratorProducts"/>
+<use   name="SimDataFormats/Vertex"/>
+<use   name="DataFormats/HeavyIonEvent"/>
+<use   name="CondFormats/HIObjects"/>
+<use   name="CondFormats/DataRecord"/>
+<use   name="DataFormats/HcalDetId"/>
+<use   name="CalibFormats/HcalObjects"/>
+<use   name="DataFormats/HcalDigi"/>
+<use   name="DataFormats/HcalRecHit"/>
+<use   name="CondFormats/HcalObjects"/>
+<use   name="Geometry/DTGeometry"/>
+<use   name="FWCore/ServiceRegistry"/>
+<use   name="DataFormats/GeometryVector"/>
+<use   name="Geometry/CaloGeometry"/>
+<use   name="Geometry/CaloTopology"/>
+<use   name="DataFormats/METReco"/>
+<use   name="RecoLocalCalo/HcalRecAlgos"/>
+<use   name="DataFormats/TrackReco"/>
+<use   name="Geometry/HcalTowerAlgo"/>
+<use   name="Geometry/Records"/>
+<use   name="Geometry/TrackerGeometryBuilder"/>
+<use   name="TrackingTools/PatternTools"/>
+<use   name="RecoPixelVertexing/PixelTriplets"/>
+<use   name="RecoPixelVertexing/PixelTrackFitting"/>
+<use   name="Geometry/EcalAlgo"/>
+<use   name="RecoHI/HiEgammaAlgos"/>
+<flags   EDM_PLUGIN="1"/>
+<export>
+  <lib   name="1"/>
+   <lib name="corrFactorCorrFactor"/>
+   <use name="FWCore/Framework"/>
+   <use name="FWCore/PluginManager"/>
+   <use name="FWCore/ParameterSet"/>
+   <use name="DataFormats/PatCandidates"/>
+
+
+</export>
