@@ -6,7 +6,7 @@ TH1D Normalize(TH1D *histo)
   return histo->Scale(1./integrale);
 } 
 
-
+//
 void Uniform()
 {
   gStyle->SetOptStat(0);
